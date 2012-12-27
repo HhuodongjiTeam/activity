@@ -30,7 +30,7 @@
       <div class="xkhd_dh_xg_1_right">
         <div class="xkhd_dh_xg_1_right_1">
           <form class="key-words-search" action="/activity/index.php/KeySearch/keySearch" method="POST">
-            <input name="key_words" type="text" value="输入活动标题" class="xkhd_dh_xg_1_right_2">
+            <input name="key_words" type="search" value="输入活动标题" class="xkhd_dh_xg_1_right_2">
             <input name="submit" type="submit" value="确认">
           </form>
         </div>
@@ -59,12 +59,17 @@
               <div class="activity-info-body">
 				<div class="new-activity">
                 	<form action="newActivity" method='post'>
-                    	<span class="activity-info">活动名称</span><input class="activity-info-input" type="text" name="info-name"><br/>
-                        <span class="activity-info">开始时间</span><input class="activity-info-input" type="text" name="info-start-time"><br/>
-                        <span class="activity-info">结束时间</span><input class="activity-info-input" type="text" name="info-end-time"><br/>
-                        <span class="activity-info">活动地点</span><input class="activity-info-input" type="text" name="info-place"><br/>
-                        <span class="activity-info">花费</span><input class="activity-info-input" type="text" name="info-cost"><br/>
-                        <span class="activity-info">活动介绍</span><input class="activity-info-input" type="text" name="info-introduce"><br/>                        <input type="submit" value="保存">
+                    	<span class="activity-info">活动名称：</span><input class="activity-info-input" type="text" name="info-name"><br/>
+                        <span class="activity-info">开始时间： </span>
+                        <input class="activity-info-time" type="date" name="info-start-date">
+                        <input class="activity-info-time" type="time" name="info-start-time"><br/>
+                        <span class="activity-info">结束时间：</span>
+                        <input class="activity-info-time" type="date" name="info-end-date">
+                        <input class="activity-info-time" type="time" name="info-end-time"><br/>
+                        <span class="activity-info">活动地点：</span><input class="activity-info-input" type="text" name="info-place"><br/>
+                        <span class="activity-info">花费：</span><input class="activity-info-input" type="number" name="info-cost"><br/>
+                        <span class="activity-info">活动介绍：</span><textarea class="activity-info-input" name="info-introduce" ></textarea><br/>
+                        <input type="submit" value="保存">
                     </form>
                 </div>
               </div>

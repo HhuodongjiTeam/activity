@@ -15,7 +15,7 @@
                     <div class="inputarea-id">
                     	<span>用户名</span>
                     </div>
-                <input type="text" name="userId" />
+                <input type="email" name="userId" />
                 </div>
                 <div class="inputarea">
                     <div class="inputarea-psw">

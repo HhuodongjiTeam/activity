@@ -30,7 +30,7 @@
       <div class="xkhd_dh_xg_1_right">
         <div class="xkhd_dh_xg_1_right_1">
           <form class="key-words-search" action="/activity/index.php/KeySearch/keySearch" method="POST">
-            <input name="key_words" type="text" value="输入活动标题" class="xkhd_dh_xg_1_right_2">
+            <input name="key_words" type="search" value="输入活动标题" class="xkhd_dh_xg_1_right_2">
             <input name="submit" type="submit" value="搜索">
           </form>
         </div>
